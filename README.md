@@ -2,26 +2,32 @@
 
 A modern Single Page Application (SPA) built with React and Tailwind CSS for a fictional creative digital agency.
 
-NovaSpace showcases a premium dark-themed agency experience with smooth client-side navigation, reusable components, responsive layouts, and shared application state using React Context API.
+NovaSpace showcases a premium dark-themed agency experience with client-side navigation, reusable components, responsive layouts, shared application state, and interactive project experiences.
 
 ## 🚀 Live Demo
 
-[View NovaSpace Live](https://codveda-level2-spa.vercel.app/)
+**Live Website:**
+https://codveda-level2-spa.vercel.app/
+
+**GitHub Repository:**
+https://github.com/basemmohamed012/codveda-level2-spa
 
 ## 📌 Project Overview
 
-NovaSpace is a multi-page Single Page Application designed to demonstrate modern front-end development practices.
+NovaSpace is a modern creative agency website built as a Single Page Application.
 
-The application includes:
+The project demonstrates modern front-end development practices including client-side routing, shared state management, reusable components, responsive design, and smooth page transitions.
 
-* Home page
-* About page
-* Services page
-* Work / Projects page
-* Contact page
-* 404 Not Found page
+### Pages
 
-Navigation is handled on the client side using React Router, allowing users to move between pages without full page reloads.
+* Home
+* About
+* Services
+* Work
+* Contact
+* 404 Not Found
+
+Navigation between pages is handled on the client side without full page reloads.
 
 ## ✨ Features
 
@@ -37,7 +43,7 @@ Navigation is handled on the client side using React Router, allowing users to m
 * ✨ CSS page transition animations
 * 📬 Interactive contact form
 * 🚫 Custom 404 page
-* ☁️ Deployed with Vercel
+* ☁️ Vercel deployment
 
 ## 🛠️ Tech Stack
 
@@ -82,22 +88,20 @@ src/
 
 ## 🧠 State Management
 
-The application uses **React Context API** to manage shared state across different components.
+The application uses **React Context API** for shared state management.
 
-The `AppContext` handles:
+The `AppContext` manages:
 
 * Mobile navigation state
 * Selected project state
 * Opening project details
 * Closing the project modal
 
-This allows components such as `Navbar`, `ProjectCard`, and `ProjectModal` to communicate through shared application state without unnecessary prop drilling.
+This allows components such as `Navbar`, `ProjectCard`, and `ProjectModal` to share state without unnecessary prop drilling.
 
 ## 🧭 Routing
 
 React Router is used for client-side navigation.
-
-Available routes:
 
 ```text
 /           → Home
@@ -110,7 +114,7 @@ Available routes:
 
 ## 🎨 Design
 
-NovaSpace uses a modern creative-agency visual direction featuring:
+NovaSpace follows a modern creative-agency visual style featuring:
 
 * Dark backgrounds
 * Glassmorphism
@@ -121,35 +125,35 @@ NovaSpace uses a modern creative-agency visual direction featuring:
 * Hover interactions
 * Mobile-first layouts
 
-The design was built with Tailwind CSS and reusable React components.
+The interface was built with Tailwind CSS and reusable React components.
 
 ## ⚙️ Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/basemmohamed012/codveda-level2-spa.git
 ```
 
-### 2. Navigate to the project
+### Navigate to the project
 
 ```bash
 cd codveda-level2-spa
 ```
 
-### 3. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 5. Build for production
+### Build for production
 
 ```bash
 npm run build
@@ -157,10 +161,9 @@ npm run build
 
 ## 🌐 Deployment
 
-The project is deployed using Vercel.
+NovaSpace is deployed using Vercel.
 
-**Live Website:**
-
+**Live Demo:**
 https://codveda-level2-spa.vercel.app/
 
 ## 📚 Codveda Internship
@@ -169,7 +172,7 @@ This project was developed as part of the **Codveda Technologies Front-End Devel
 
 ### Level 2 – Task 1
 
-The task focuses on creating a Single Page Application using React or Vue.js with:
+The task focuses on building a Single Page Application using React or Vue.js with:
 
 * At least three pages
 * Client-side routing
@@ -185,8 +188,11 @@ NovaSpace implements these requirements using React, React Router, Context API, 
 
 Front-End Developer | React Developer
 
-* GitHub: [basemmohamed012](https://github.com/basemmohamed012)
-* LinkedIn: [Basem Mohamed](https://linkedin.com/in/basem-mohamed-99440224)
+**GitHub:**
+https://github.com/basemmohamed012
+
+**LinkedIn:**
+https://linkedin.com/in/basem-mohamed-99440224
 
 ---
 
